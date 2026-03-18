@@ -5,6 +5,10 @@ model:
   test_size: 0.2
   random_state: 42
 
+features:
+  target_classification: DiseaseRisk
+  target_regression: charges
+
 output:
   save_models: true
   save_plots: true

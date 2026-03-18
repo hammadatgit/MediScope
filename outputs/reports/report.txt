@@ -1,0 +1,12 @@
+MediScope ML Report
+====================
+
+Regression Models:
+Lasso: {'MSE': 985332.44, 'R2': 0.9776}
+Linear: {'MSE': 985317.93, 'R2': 0.9776}
+Ridge: {'MSE': 985443.63, 'R2': 0.9776}
+
+Classification Models:
+DecisionTree: {'Accuracy': 1.0, 'Precision': 1.0, 'Recall': 1.0, 'ROC_AUC': 1.0, 'ConfusionMatrix': [[532, 0], [0, 468]]}
+Logistic: {'Accuracy': 0.903, 'Precision': 0.8938, 'Recall': 0.8996, 'ROC_AUC': 0.9733, 'ConfusionMatrix': [[482, 50], [47, 421]]}
+SVM: {'Accuracy': 0.938, 'Precision': 0.9319, 'Recall': 0.9359, 'ROC_AUC': 0.988, 'ConfusionMatrix': [[500, 32], [30, 438]]}
