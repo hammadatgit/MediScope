@@ -1,0 +1,7 @@
+venv/
+env/
+ai-week1/
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+logs/

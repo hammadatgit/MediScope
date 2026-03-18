@@ -1,0 +1,10 @@
+data:
+  path: data/patients.csv
+
+model:
+  test_size: 0.2
+  random_state: 42
+
+output:
+  save_models: true
+  save_plots: true
